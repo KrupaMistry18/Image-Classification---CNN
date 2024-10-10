@@ -1,9 +1,8 @@
-![image1](https://user-images.githubusercontent.com/37298971/38595828-bb62b8c4-3d6f-11e8-9179-4b6e92491838.png)
+
 ## <h1 align="center">Image Classification Using CNN</h1>
 Image Classification Using CNN
 Canadian Institute for Advanced Research (CIFAR) provides a dataset that consists of 60000 32x32x3 color images of 10 classes, known as CIFAR-10, with 6000 images per class. There are 50000 training images and 10000 test images. To classify those 10 classes of images a convolutional neural network (CNN) is used here. CNN achieved 85.0% accuracy in the test dataset. The block diagram of the CNN is shown below.
-## Block Diagram
-![block](https://user-images.githubusercontent.com/37298971/56470779-02ef6600-646c-11e9-8b86-a627ce471c94.png)
+
 ## CNN Architecture
 ```
 model = Sequential()
@@ -56,10 +55,6 @@ Batch size is chosen 256 and the network is trained for 120 epochs.
 This is how the outputs look like.
 ![tesla](https://user-images.githubusercontent.com/37298971/45700294-e6b1e080-bb8d-11e8-9a19-0ce2b84c04ae.png)
 
-![air](https://user-images.githubusercontent.com/37298971/45700302-ee718500-bb8d-11e8-9d44-46c8d8536a1a.png)
-
-#### Output for all the images in the ```'IMAGES/'``` folder. 
-![OUTPUT](https://user-images.githubusercontent.com/37298971/56470711-21a12d00-646b-11e9-9999-a85cceafbbf1.png)
 
 ## Summary
 - [x] Load the CIFAR-10 dataset.
