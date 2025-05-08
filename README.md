@@ -1,7 +1,7 @@
 
 ## <h1 align="center">Image Classification Using CNN</h1>
 Image Classification Using CNN
-Canadian Institute for Advanced Research (CIFAR) provides a dataset that consists of 60000 32x32x3 color images of 10 classes, known as CIFAR-10, with 6000 images per class. There are 50000 training images and 10000 test images. To classify those 10 classes of images a convolutional neural network (CNN) is used here. CNN achieved 85.0% accuracy in the test dataset. The block diagram of the CNN is shown below.
+(CIFAR) provides a dataset that consists of 60000 32x32x3 color images of 10 classes, known as CIFAR-10, with 6000 images per class. There are 50000 training images and 10000 test images. To classify those 10 classes of images a convolutional neural network (CNN) is used here. CNN achieved 85.0% accuracy in the test dataset. The block diagram of the CNN is shown below.
 
 ## CNN Architecture
 ```
